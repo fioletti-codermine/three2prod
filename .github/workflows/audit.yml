@@ -5,7 +5,7 @@ on:
     paths:
       - Cargo.lock
   schedule:
-    - cron: '0 8 * * 1'  # ogni lunedì alle 08:00 UTC
+    - cron: "17 8 * * 1" # ogni lunedì alle 08:17 UTC
 
 env:
   CARGO_TERM_COLOR: always
